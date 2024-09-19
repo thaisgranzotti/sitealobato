@@ -20,13 +20,14 @@
     top: 20px;
     left: 20px;
     padding: 10px 20px;
-    background-color: rgb(239, 208, 252);
+.boton{
+    background-color:#C4E4FF ;
     color: rgb(15, 7, 24);
     text-decoration: none;
     border-radius: 3px;
 }
 .boton:hover{
-    background-color: #C4E4FF;
+    background-color: #f56dd3;
 }
 .boton:active{
     font-size: 20px;
