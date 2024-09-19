@@ -6,14 +6,14 @@
 
 }
 .cabecalho{
-    background-color: rgb(201, 141, 250);
+    background-color: #D20062;
     padding: 30px;
 }
 .corpo{
-    background-color: rgb(172, 94, 224);
+    background-color: #D6589F;
 }
 .footer{
-    background-color: rgb(166, 78, 224);
+    background-color: #D895DA;
 }
 .boton{
     position: fixed;
@@ -26,7 +26,7 @@
     border-radius: 3px;
 }
 .boton:hover{
-    background-color: rgb(181, 20, 255);
+    background-color: #C4E4FF;
 }
 .boton:active{
     font-size: 20px;
