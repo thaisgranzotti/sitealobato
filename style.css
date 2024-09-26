@@ -37,3 +37,15 @@ h2{
 h3{
     text-align: center;
 }
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(300px, 1fr)
+    gap: 20px;
+}
+.video-item { 
+    background-color: #f56dd3;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: #D895DA;
+    height: 200px;
+}
