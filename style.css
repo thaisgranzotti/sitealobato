@@ -1,76 +1,69 @@
 *{
- margin: 0;   
- padding: 0;
+    margin: 0;
+    padding: 0;
 }
 :root{
 
 }
 .cabecalho{
-    background-color: #D20062;
-    padding: 30px;
+    background-color: rgb(248, 144, 54);
+    padding: 50px;
 }
 .corpo{
-    background-color: #D6589F;
+    background-color: rgb(237, 240, 242);
 }
 .footer{
-    background-color: #D895DA;
+    background-color: rgb(126, 133, 133);
 }
 .boton{
     position: fixed;
     top: 20px;
-    left: 20px;
+    left: 0px;
     padding: 10px 20px;
-    background-color:#C4E4FF ;
-    color: rgb(15, 7, 24);
+    background-color: blue;
+    color: rgb(244, 248, 251);
     text-decoration: none;
     border-radius: 5px;
 }
 .boton:hover{
-    background-color: #f56dd3;
+    background: linear-gradient(to right,#eb0f0f,#e3f60f,#1df64f);
 }
 .boton:active{
     font-size: 20px;
 }
-h2{
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
 .video-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, mimax(300px, 1fr)
+    gri
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
 }
-.video-item { 
-    background-color: #f56dd3;
+
+.video-item {
+    background-color: #fff;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: #D895DA;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     height: 200px;
 }
-.gallery {
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 300px); /* Duas colunas de 300px */
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Cria colunas adaptáveis */
+    grid-gap: 10px; /* Espaço entre as fotos */
+    padding: 10px;
 }
 
-.gallery-item {
-    width: 300px;  /* Largura fixa */
-    height: 300px; /* Altura fixa */
+.grid-item {
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.gallery-item img {
+.grid-item img {
     width: 100%;
-    height: 100%; /* Ajusta a altura da imagem para 100% */
-    object-fit: cover; /* Mantém a proporção da imagem */
-    display: block;
-    transition: transform 0.2s;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço */
+    transition: transform 0.3s;
 }
 
-.gallery-item img:hover {
-    transform: scale(1.05);
+.grid-item img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
 }
