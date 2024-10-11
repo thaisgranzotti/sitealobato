@@ -6,27 +6,27 @@
 
 }
 .cabecalho{
-    background-color: rgb(248, 144, 54);
+    background-color: rgb(248, 139, 243);
     padding: 50px;
 }
 .corpo{
     background-color: rgb(237, 240, 242);
 }
 .footer{
-    background-color: rgb(126, 133, 133);
+    background-color: rgb(140, 243, 243);
 }
 .boton{
     position: fixed;
     top: 20px;
     left: 0px;
     padding: 10px 20px;
-    background-color: blue;
+    background-color: rgb(207, 140, 247);
     color: rgb(244, 248, 251);
     text-decoration: none;
     border-radius: 5px;
 }
 .boton:hover{
-    background: linear-gradient(to right,#eb0f0f,#e3f60f,#1df64f);
+    background: linear-gradient(to right,#e40feb,#ff00dd,#e098c5);
 }
 .boton:active{
     font-size: 20px;
