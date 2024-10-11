@@ -66,4 +66,15 @@
 
 .grid-item img:hover {
     transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+
+}
+.imagem_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.imagem_grid img{
+    width: 300px;
+    height: auto;
 }
